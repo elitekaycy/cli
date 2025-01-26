@@ -76,8 +76,12 @@ MyProject/
 │   ├── main/
 │   │   └── java/
 │   │       ├── module-info.java
-│   │       └── Main.java
+│   │       └── com/
+│   │           └── example/
+│   │               └── default/
+│   │                   └── Main.java
 ├── build.sh
+└── README.md
 ```
 
 ## Notes
