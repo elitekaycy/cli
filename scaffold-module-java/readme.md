@@ -84,6 +84,6 @@ MyProject/
 
 - The script assumes that you have Java and the `javac` compiler installed on your system.
 - The script generates a basic `module-info.java` file and `Main.java` file. You will need to modify these files to suit your specific needs.
-- Use the `init.sh` script to set up the alias for the first time.
+- Use the `init/create-alias.sh` script to set up the alias for the first time.
 
 
