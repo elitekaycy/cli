@@ -1,0 +1,4 @@
+- scaffold a folder directory with a given path name com.elitekaycy.java
+- add a module info with the import
+- add a main class with a system print ("com.elitekaycy.java")
+- add a build.sh with generation script with a way to build all code and run
