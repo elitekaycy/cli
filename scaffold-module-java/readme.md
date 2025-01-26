@@ -13,7 +13,7 @@
 
 1. Clone this repository or download the `create-java-project.sh` script.
 ```
-git clone ... && cd scaffold-module-java
+git clone https://github.com/elitekaycy/cli && cd cli/scaffold-module-java
 ```
 2. Make the script executable:
    ```bash
@@ -55,14 +55,14 @@ scaffold -p <project-name>
 ## Example
 
 ```bash
-create-java-project -m com.elitekaycy.myproject -p MyProject
+scaffold -m com.elitekaycy.myproject -p MyProject
 ```
 
 This will create a new Java project with the module name `com.elitekaycy.myproject` and project name `MyProject`.
 
 If you want to use default parameters configured in a file, you can simply run:
 ```bash
-scaffold proxy
+scaffold -p proxy
 ```
 
 This will create a project based on the predefined defaults (e.g., `com.elitekaycy.proxy.Main.java`).
